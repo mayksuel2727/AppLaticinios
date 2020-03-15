@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1018330953608",
+    "firebase_url": "https://italacpro-7b2ab.firebaseio.com",
+    "project_id": "italacpro-7b2ab",
+    "storage_bucket": "italacpro-7b2ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1018330953608:android:b42f4ff401459ded9dec3d",
+        "android_client_info": {
+          "package_name": "com.example.italac"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1018330953608-fpnsmv19t2r5gjhm4sek27rnvf6d3567.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.italac",
+            "certificate_hash": "0302cb7694bc50ce6138829fe7fe7c04862753c0"
+          }
+        },
+        {
+          "client_id": "1018330953608-dak0mvihdfnq15cf8utoia0kre7abaa3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUiXhVjw4AGZY_HoyuY62bwURnPNBMVPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1018330953608-dak0mvihdfnq15cf8utoia0kre7abaa3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

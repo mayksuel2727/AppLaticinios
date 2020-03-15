@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Italac</string>
+    <string name="email">E-mail</string>
+    <string name="senha">Senha</string>
+    <string name="entrar">Entrar</string>
+    <string name="cadastraSe">Cadastre-se</string>
+    <string name="fazendas">Fazendas</string>
+    <string name="Cadastrar">Cadastrar</string>
+    <string name="nome">Nome</string>
+    <string name="Telefone">Telefone</string>
+    <string name="registrar_analise">Registrar Análise</string>
+    <string name="quantidade_Animais">Quantidade de animais</string>
+    <string name="nome_fazenda">Nome da fazenda</string>
+    <string name="municipio">Município</string>
+    <string name="adiciona_Analise">Adicionar Análise</string>
+    <string name="historico_Analise">Histórico de Análises</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="facebook_app_id">581739912634232</string>
+    <string name="fb_login_protocol_scheme">fb581739912634232</string>
+    <string name="CPFouCNPJ">CNPJ ou CPF</string>
+    <string name="Endereco">Endereço</string>
+    <string name="IncEstaudal">Inscrição Estadual</string>
+
+</resources>

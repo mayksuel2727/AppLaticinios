@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Historico_Analises">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="409dp"
+                android:layout_height="164dp"
+                android:background="@color/azul_escuro"
+                android:gravity="center"
+                android:orientation="vertical"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.451"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <ImageView
+                    android:layout_width="328dp"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/logo_italac"
+                    android:contentDescription="TODO" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/ccs"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:hint="CCS UND X 1000/ML"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/lactose" />
+
+
+            <EditText
+                android:id="@+id/cbt"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:hint="CBT UND X 1000/ML"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/ccs" />
+
+
+            <EditText
+                android:id="@+id/gordura"
+                android:layout_width="104dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="60dp"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="84dp"
+                android:ems="10"
+                android:hint="Gordura %"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <EditText
+                android:id="@+id/proteina"
+                android:layout_width="104dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="Proteina %"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="@+id/gordura"
+                app:layout_constraintHorizontal_bias="0.081"
+                app:layout_constraintStart_toStartOf="@+id/gordura"
+                app:layout_constraintTop_toBottomOf="@+id/gordura" />
+
+            <EditText
+                android:id="@+id/lactose"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginStart="100dp"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="144dp"
+                android:layout_marginEnd="100dp"
+                android:layout_marginRight="100dp"
+                android:ems="10"
+                android:hint="Lactose %"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.498"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <EditText
+                android:id="@+id/est"
+                android:layout_width="104dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="84dp"
+                android:layout_marginEnd="60dp"
+                android:layout_marginRight="60dp"
+                android:ems="10"
+                android:hint="EST %"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/gordura"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+            <EditText
+                android:id="@+id/esd"
+                android:layout_width="104dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:hint="ESD %"
+                android:inputType="number"
+                app:layout_constraintEnd_toEndOf="@+id/est"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toEndOf="@+id/proteina"
+                app:layout_constraintTop_toBottomOf="@+id/est" />
+
+            <TextView
+                android:id="@+id/textView"
+                style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:background="@color/laranja"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="Ultima Analise"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+            <TextView
+                android:id="@+id/textView7"
+                style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="32dp"
+                android:background="@color/laranja"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="Media Trimestral"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cbt" />
+
+            <com.github.mikephil.charting.charts.HorizontalBarChart
+                android:id="@+id/horizontalChart"
+                android:layout_width="match_parent"
+                android:layout_height="500dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+            <TextView
+                style="@android:style/Widget.DeviceDefault.TextView.SpinnerItem"
+                android:layout_width="match_parent"
+                android:layout_height="59dp"
+                android:layout_marginTop="32dp"
+                android:background="@color/laranja"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="Relatorio Geral"
+                android:textSize="36sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalChart" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+</ScrollView>
