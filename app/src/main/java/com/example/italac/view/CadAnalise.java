@@ -78,6 +78,7 @@ public class CadAnalise extends AppCompatActivity {
                                 @Override
                                 public void onFailure(@NonNull Exception e) {
                                     alert("Error ao cadastrar");
+                                    //a
                                 }
                             });
                 }
